@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: basic2D
-  m_Shader: {fileID: -6465566751694194690, guid: 275a4ad9ab1cde646a99e6a5f725df54,
+  m_Name: cartoonWater
+  m_Shader: {fileID: -6465566751694194690, guid: aa01b2aed8c47bd42b325f54af91cef2,
     type: 3}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -33,7 +33,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: a63f697df1a7bb1438a9679cf3ccccfa, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -49,6 +49,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_4F6A69E2: 0.16
+    - Vector1_62025450: 4
+    - Vector1_64FFB0F1: 8.6
+    - Vector1_B2BA374D: 4.2
+    - Vector1_C292304: 2.18
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -71,12 +76,13 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Color_29F97C87: {r: 0.26666668, g: 0.83137256, b: 1.6078432, a: 1}
+    - Color_2A2326A4: {r: 0, g: 0.45671505, b: 1, a: 0}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Tex: {r: 0.9433962, g: 0.50284797, b: 0.564607, a: 1}
---- !u!114 &6484848094463840629
+--- !u!114 &8803353488898838905
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
