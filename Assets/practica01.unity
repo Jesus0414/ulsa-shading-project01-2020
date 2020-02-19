@@ -522,7 +522,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e4d8ac09c23568349b1003650165b405, type: 2}
+  - {fileID: 2100000, guid: d8cff5e458fa0604ca171669f8f8ea64, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1245,7 +1245,7 @@ Camera:
   m_GameObject: {fileID: 1738716063}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -1287,7 +1287,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1738716063}
   m_LocalRotation: {x: 0.008809832, y: -0, z: -0, w: 0.9999612}
-  m_LocalPosition: {x: 2.16, y: 2.05, z: -5.97}
+  m_LocalPosition: {x: 1.196, y: 1.844, z: -3.798}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
